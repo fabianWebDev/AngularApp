@@ -1,0 +1,54 @@
+<div class="weatherMainBox">
+  <div class="weatherHead">
+    <p class="infoP">Thanks to the NASA's InSight mission we're able to obtain daily measurements of Mars's
+      Elysium Planitia, a plain surface
+      near the Mars' equator.</p>
+    <button class="Btn"><a href="https://mars.nasa.gov/insight/" target="blank">Lear More</a></button>
+  </div>
+  <div class="mesureBox">
+    <div class="solMainBox">
+      <div class="solBox">
+        <h2>Elysium Planitia Weather</h2>
+        <div class="solsInterface">
+          <h2>Sol: <span id="solStyle">{{solKey[sol]}}</span></h2>
+          <div class="solsButtons">
+            <div (click)="solBtnUp()"><img src="../../../assets/upIcon.png" alt=""></div>
+            <div (click)="solBtnDown()"><img src="../../../assets/downIcon.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="weatherLayout">
+      <div class="weatherItem borderStyle1 marginLeft " id="itemOne" #itemOne>
+        <div class="iconDiv">
+          <img class="mesureIcon" src="../../../assets/tempIcon.jpg" alt="">
+        </div>
+        <h3>Tempeture</h3>
+        <div class="wheatherItemInfo">
+          <p>High: <br><span class="mesureSpan">{{maxTempeture}} ℃</span></p>
+          <p>Low: <br><span class="mesureSpan">{{minTempeture}} ℃</span></p>
+        </div>
+      </div>
+      <div class="weatherItem" id="itemTwo" #itemTwo>
+        <div class="iconDiv">
+          <img class="mesureIcon" src="../../../assets/pressIcon.png" alt="">
+        </div>
+        <h3>Pressure</h3>
+        <div class="wheatherItemInfo">
+          <p>High: <br><span class="mesureSpan">{{maxPressure}} Pa</span></p>
+          <p>Low: <br><span class="mesureSpan">{{minPressure}} Pa</span></p>
+        </div>
+      </div>
+      <div class="weatherItem" id="itemThree" #itemThree>
+        <div class="iconDiv">
+          <img class="mesureIcon" src="../../../assets/windIcon.png" alt="">
+        </div>
+        <h3>Wind Speed</h3>
+        <div class="wheatherItemInfo">
+          <p>High: <br><span class="mesureSpan"> {{maxWindSpeed}} m/s</span></p>
+          <p>Low: <br><span class="mesureSpan">{{minWindSpeed}} m/s</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

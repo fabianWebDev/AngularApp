@@ -1,0 +1,202 @@
+.weatherMainBox {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.weatherHead {
+  background-image: url(../../../assets/InSightImg2.jpg);
+  background-position: 0px -380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.infoP {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  width: 80%;
+  color: white;
+  margin-top: 50px;
+  font-size: 30px;
+  text-shadow: -2px 2px 3px black;
+  text-align: center;
+  padding: 10px;
+  box-shadow: -2px 2px 5px black;
+}
+
+.Btn a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+/*Weather Layout Items*/
+.mesureBox {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.mesureBox {
+  border-top: 5px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  background-image: url(../../../assets/imgFondo2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.weatherLayout {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}
+
+.weatherItem {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 95%;
+  height: 300px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding-top: 20px;
+  box-shadow: -2px 2px 5px black;
+}
+
+/*Weather Icon Box*/
+.iconDiv {
+  width: 38%;
+  margin: 0 auto;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: -2px 2px 5px black;
+}
+
+.mesureIcon {
+  margin-top: 5px;
+  width: 70px;
+}
+
+.weatherItem h3 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: -1px 1px 3px black;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px;
+}
+
+.wheatherItemInfo {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-left: 15px;
+  justify-content: space-evenly;
+}
+
+.weatherItem p {
+  font-size: 24px;
+  margin-left: 4px;
+  color: rgb(0, 0, 0);
+  line-height: 35px;
+}
+
+.mesureSpan {
+  color: rgb(14, 156, 175);
+  font-size: 30px;
+  margin-bottom: 0;
+  text-shadow: -2px 2px 5px black;
+}
+
+/*Sols Interface*/
+/*Sols Box*/
+.solMainBox {
+  padding: 10px;
+  color: white;
+}
+
+.solBox {
+  margin: 0 auto;
+  margin-top: 105px;
+  width: 100%;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: -2px 2px 5px black;
+}
+
+.solBox h2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  text-shadow: -2px 2px 5px black;
+}
+
+.solsInterface {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.solsInterface h2 {
+  margin: 0 auto;
+  font-size: 60px;
+  padding: 2px;
+  margin-top: 28px;
+  margin-left: 70px;
+  color: black;
+}
+
+#solStyle {
+  color: rgb(14, 156, 175);
+}
+
+.solsButtons {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  padding-left: 25px;
+}
+
+.solsButtons div img {
+  width: 35px;
+}
+
+.solsButtons div {
+  width: 55px;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 55px;
+  padding: 5px;
+  padding-top: 5px;
+  cursor: pointer;
+  box-shadow: -2px 2px 5px black;
+  outline: none;
+}
+
+.solsButtons div:hover {
+  border: 5px solid rgb(14, 156, 175);
+  transition: 1s;
+}

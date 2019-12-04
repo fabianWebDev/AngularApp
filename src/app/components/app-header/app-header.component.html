@@ -1,0 +1,17 @@
+<header>
+  <div class="headerBox">
+    <div class="headMainBox">
+      <img src="../../../assets/imgMars.png" alt="">
+      <a href="#" [routerLink]="['']">
+        <h1>PlanetRed</h1>
+      </a>
+      <div class="menuIcon" (click)="menuOpen()">
+        <img src="../../../assets/menuIcon.png" alt="">
+      </div>
+    </div>
+    <div class="navBox" #navBox>
+      <app-nav></app-nav>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</header>

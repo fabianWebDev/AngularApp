@@ -1,0 +1,47 @@
+<div class="roverMainBox">
+  <div class="roverInfo">
+    <h2>Rover Curiosity</h2>
+    <img src="../../../assets/curiosityImg.jpg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae, praesentium tempore asperiores, quos
+      aliquam cumque esse quibusdam expedita harum ipsam voluptas corrupti nesciunt accusamus rem obcaecati dignissimos
+      deleniti delectus. Corrupti nesciunt accusamus rem obcaecati dignissimos deleniti delectus?</p>
+    <button class="Btn roverBtn"><a href="">Learn More</a></button>
+  </div>
+  <div class="roverCams">
+    <div class="cam">
+      <div class="roverPic">
+        <img src="{{frontCamPictures}} " alt="">
+      </div>
+      <div class="roverCamSecondBox">
+        <div class="roverCamInfo">
+          <h2>FHAZ</h2>
+          <p>(Front Hazard Avoidance Camera)</p>
+          <p>Sol: <span class="infoSpan">{{solFront}}</span></p>
+          <p>Earth Day: <span class="infoSpan">{{dateFront}}</span> </p>
+        </div>
+        <div class="roverBtnBox">
+          <div class="roverPicBtn start" (click)="backFront()"><img src="../../../assets/upIcon.png" alt=""></div>
+          <div class="roverPicBtn end" (click)="nextFront()"><img src="../../../assets/downIcon.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="cam">
+      <div class="roverPic">
+        <img src="{{backCamPictures}}" alt="">
+      </div>
+      <div class="roverCamSecondBox">
+        <div class="roverCamInfo">
+          <h2>RHAZ</h2>
+          <p>(Rear Hazard Avoidance Camera)</p>
+          <p>Sol: <span class="infoSpan">{{solBack}}</span></p>
+          <p>Earth Day: <span class="infoSpan">{{dateBack}}</span> </p>
+        </div>
+        <div class="roverBtnBox">
+          <div class="roverPicBtn start" (click)="backRear()"><img src="../../../assets/upIcon.png" alt=""></div>
+          <div class="roverPicBtn end" (click)="nextRear()"><img src="../../../assets/downIcon.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

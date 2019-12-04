@@ -1,0 +1,24 @@
+.socialMainBox {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+  height: 20px;
+}
+
+.socialMainBox div {
+  margin-left: 5px;
+}
+
+.socialMainBox div a img {
+  width: 50px;
+}
+
+.socialMainBox div a img:hover {
+  width: 55px;
+  transition: 0.1s;
+}

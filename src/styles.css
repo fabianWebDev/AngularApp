@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Economica';
+  src: url(./assets/Economica/Economica-Regular.ttf)format("truetype");
+  src: url(./assets/Economica/Economica-Bold.ttf)format("truetype");
+  src: url(./assets/Economica/Economica-Italic.ttf)format("truetype");
+  font-weight: 300;
+}
+
+body,
+html {
+  max-width: 1400px;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Economica', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.Btn {
+  margin: 0 auto;
+  margin-top: 110px;
+  width: 10%;
+  height: 30px;
+  background-color: rgb(14, 156, 175);
+  border-radius: 2px;
+  padding: 2px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: -2px 2px 5px black;
+  border: none;
+}
+
+.Btn:hover {
+  background-color: rgb(5, 73, 82);
+  transition: 0.5s;
+}

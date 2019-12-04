@@ -1,0 +1,87 @@
+.backImg {
+  background-image: url(../../../assets/imgFondo1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media(min-width:468px) {
+  .backImg {
+    margin: 0px 10px 10px 10px;
+    border-radius: 3px;
+  }
+}
+
+.apodBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 85px 0px 5px 0px;
+  padding-top: 10px;
+}
+
+@media(min-width:468px) {
+  .apodBox {
+    margin: 90px 10px 5px 10px;
+  }
+}
+
+.apodBox img {
+  width: 95%;
+  margin: 0 auto;
+  height: 300px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+@media(min-width:468px) {
+  .apodBox img {
+    width: 75%;
+    height: 550px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+  }
+}
+
+.apodText {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 10px;
+  width: 95%;
+}
+
+.apodText h2 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-shadow: -1px 1px 3px black;
+}
+
+.apodText p {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  margin: 0;
+  margin-top: 10px;
+  font-style: italic;
+  text-shadow: -1px 1px 3px black;
+}
+
+.date {
+  margin-top: 0 !important;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.apodInfoBox {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 10px;
+}

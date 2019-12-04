@@ -1,0 +1,87 @@
+.footerMainBox {
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: -1px 1px 3px black;
+    background-image: url(../../../assets/marsBackImg.jpg);
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    font-size: 24px;
+  }
+  
+  .footNav {
+    display: none;
+  }
+  
+  @media(min-width:468px) {
+    .footNav {
+      display: initial;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      margin-top: 10px;
+    }
+  }
+  
+  .footerInfo {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    width: 95%;
+    color: white;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
+  
+  @media(min-width:468px) {
+    .footerInfo {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 0 auto;
+      width: 90%;
+      color: white;
+      line-height: 28px;
+      letter-spacing: 0.5px;
+    }
+  }
+  
+  .displayOff {
+    display: none;
+  }
+  
+  @media(min-width:468px) {
+    .displayOff {
+      display: initial;
+    }
+  }
+  
+  .footerInfo div {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .footerFoot {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 4px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  @media(min-width:468px) {
+    .footerFoot {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  

@@ -1,0 +1,248 @@
+.roverMainBox {
+  min-height: 770px;
+  max-height: max-content;
+  margin: 0 auto;
+  margin: 85px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../assets/imgFondo2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: -1px 1px 2px black;
+  padding: 5px;
+}
+
+@media(min-width:468px) {
+  .roverMainBox {
+    display: grid;
+    flex-direction: 1fr 2fr;
+    height: 770px;
+    margin: 90px 10px 10px 10px;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    border-radius: 3px;
+  }
+}
+
+/*Rover Info Box*/
+.roverInfo {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+}
+
+@media(min-width:468px) {
+  .roverInfo {
+    padding-right: 10px;
+  }
+}
+
+.roverInfo h2 {
+  font-size: 45px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.roverInfo img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: -2px 2px 5px black;
+}
+
+.roverInfo p {
+  padding: 5px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: -2px 2px 5px black;
+}
+
+.roverBtn {
+  width: 30% !important;
+  margin-top: 20px;
+}
+
+.Btn a {
+  font-size: 20px!important;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+/*Rover Cam Boxes*/
+
+.roverCams {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 18px;
+}
+
+.cam {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: -2px 2px 5px black;
+  height: 575px;
+}
+
+.cam:last-of-type {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media(min-width:468px) {
+  .roverCams {
+    margin-top: 0;
+  }
+
+  .cam {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+    height: 360px;
+  }
+
+  .cam:last-of-type {
+    margin-top: 0;
+  }
+}
+
+.roverCamSecondBox {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-top: -5px;
+  height: 270px;
+}
+
+@media(min-width:468px) {
+  .roverCamSecondBox {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: none;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: initial;
+  }
+}
+
+.roverPic {
+  height: 300px;
+}
+
+.roverPic img {
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  padding: 0;
+}
+
+@media(min-width:468px) {
+  .roverPic {
+    height: 340px;
+  }
+
+  .roverPic img {
+    height: 340px;
+    padding: 0;
+  }
+}
+
+.roverCamInfo {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: -1px 1px 3px black;
+  padding: 2px;
+  padding-bottom: -30px;
+}
+
+.roverCamInfo h2 {
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+@media(min-width:468px) {
+  .roverCamInfo h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.roverCamInfo p {
+  margin-bottom: 5px;
+}
+
+@media(min-width:468px) {
+  .roverCamInfo p {
+    margin-bottom: 8px;
+  }
+}
+
+.roverPicBtn {
+  width: 75px;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  height: 75px;
+  cursor: pointer;
+  outline: none;
+  padding-top: 5px;
+  padding-left: 5px;
+  box-shadow: -2px 2px 5px black;
+}
+
+.roverBtnBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 5px;
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 7px !important;
+}
+
+@media(min-width:468px) {
+  .roverBtnBox {
+    padding-top: 15px;
+    margin-bottom: 10px !important;
+  }
+}
+
+.roverPicBtn img {
+  transform: rotate(-90deg);
+  margin: 0 auto;
+  width: 55px;
+}
+
+.roverPicBtn:hover {
+  border: 5px solid rgb(14, 156, 175);
+  transition: 1s;
+}
+
+.end {
+  margin-left: 20px;
+}
+
+.start {
+  margin-right: 20px;
+}
+
+.infoSpan {
+  color: rgb(14, 156, 175);
+  font-size: 30px;
+  font-weight: bold;
+}

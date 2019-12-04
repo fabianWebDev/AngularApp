@@ -1,0 +1,35 @@
+.indexMainBox {
+  margin: 0 auto;
+  margin-top: 110px;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+  margin-bottom: 50px;
+  background-image: url(../../../assets/mars.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+@media(min-width:468px) {
+  .indexMainBox {
+    max-width: 60%;
+  }
+}
+
+.indexMainBox p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-shadow: -2px 2px 3px black;
+}
+
+.indexInfoBox {
+  padding-top: 110px;
+}
+
+@media(min-width:468px) {
+  .indexInfoBox {
+    padding-top: 170px;
+  }
+}
