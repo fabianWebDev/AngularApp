@@ -33,9 +33,10 @@
     }
   }
   
-  .headMainBox img {
-    width: 70px;
-  }
+  .marsHead {
+  width: 70px;
+  height: 70px !important;
+}
   
   .headMainBox a {
     text-decoration: none;
