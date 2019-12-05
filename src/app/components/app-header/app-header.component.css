@@ -36,6 +36,7 @@
   .marsHead {
   width: 70px;
   height: 70px !important;
+    display: none;
 }
   
   .headMainBox a {
@@ -63,6 +64,11 @@
     .menuIcon {
       display: none;
     }
+     .marsHead {
+  width: 70px;
+  height: 70px !important;
+    display: initial;
+}
   }
   
   .navBox {
